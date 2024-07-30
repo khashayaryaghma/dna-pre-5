@@ -1,3 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap");
+/* * {
+  background-color: aquamarine;
+} */
+/* body {
+  background-color: beige;
+} */
 * {
-  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite BE VLG", cursive;
+}
+h1 {
+  /* background-color: aqua; */
+}
+
+.paragraph {
+  /* color: brown; */
+}
+
+section {
+  /* background-color: blueviolet; */
+  /* width: 200px;
+  height: 300px; */
+  /* font-size: 30px; */
+  /* width: 500px;
+  height: 150px; */
+}
+a {
+  /* font-size: 2em; */
+  /* font-size: 1rem; */
+  font-size: 20vh;
+}
+
+div {
+  background-color: aqua;
+  /* width: 50%; */
+  height: 100px;
+
+  width: 100vw;
+
+  font-size: 20vh;
+}
+.para {
+  background-color: darkorange;
+  padding: 1rem;
+  border: 5px solid red;
+  /* margin: 5rem; */
+  margin-top: 5rem;
+  font-size: 10px;
+}
+.box {
+  /* box-sizing: border-box; */
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: 5px solid purple; /* shorthand*/
+  /* border-width: ;
+  border-style: ;
+  border-color: ; */
+}
+
+/* section p{
+  color: red;
+} */
+
+/* section .text{
+text-decoration: underline;
+} */
+
+.text {
+  background-color: aqua;
+  display: inline-block;
+  width: 10rem;
+  margin: 5rem;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: brown;
+  border-radius: 1rem;
+  padding: 5px 2rem;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+
+button .span1 {
+  width: 1rem;
+  height: 12px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: darkgreen;
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  z-index: 10;
+}
+button .span2 {
+  width: 1rem;
+  height: 12px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: blueviolet;
+  position: absolute;
+  top: -5px;
+  right: 0;
+  z-index: 20;
 }
